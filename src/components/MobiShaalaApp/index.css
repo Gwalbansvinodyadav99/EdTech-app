@@ -1,0 +1,165 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image : url("https://as1.ftcdn.net/v2/jpg/03/22/73/26/1000_F_322732644_qDBiaTMV8aOGttG6PBo99tfJWwpv302j.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .app-container{
+      min-width: 160%;
+      background-size: cover;
+     }
+     
+}
+
+
+.responsive-container{
+   display: flex;
+   justify-content: space-between;
+   min-width : 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .responsive-container{
+       flex-direction: column;
+     }
+}
+
+.list-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.list-item{
+  color : #ffffff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .list-item{
+        color : #ffffff;
+        font-size: 14px;
+      }
+}
+
+.mobishaala-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-left: 5%; 
+}
+
+@media screen and (max-width: 768px) {
+    .mobishaala-details-container{
+        justify-content: center;
+        align-items: center; 
+        flex-grow: 1; 
+    }
+    
+}
+
+.whatsApp-btn{
+    display: flex;
+    background-color: #00ab41;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .whatsApp-btn{
+     margin-bottom: 15px;
+     }
+     
+}
+
+
+
+.whatsApp-btn-name{
+    padding-left: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;;
+    color: #ffffff;
+}
+
+span{
+    color : #FFFF00;
+    font-weight : 600;
+}
+
+@media screen and (max-width: 768px) {
+    span{
+       font-size: 15px;
+    }
+    
+}
+
+
+
+.main-heading{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    color : #ffffff;
+}
+
+@media screen and (max-width: 768px){
+    .main-heading{
+        font-size: 25px; 
+        padding-top: 10px;
+        align-self: center;
+    }
+}
+   
+
+h2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    margin:1;
+    color : #ffffff;
+}
+
+.description{
+    color : #ffffff;
+    max-width: 440px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .description{
+       font-size: 14px;
+       max-width: 350px;
+    }
+    
+}
+.btn{
+    color : #ffffff;
+    border-radius: 5px;
+    border : none;
+    outline: none;
+    background-color:#FF0000 ;
+    font-weight: 600;
+    cursor: pointer;
+    height: 40px;
+    min-width: 90px;
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 2;
+    margin: 0;
+    
+}
